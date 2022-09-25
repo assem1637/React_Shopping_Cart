@@ -1,4 +1,4 @@
-Live Demo :- https://assem1637.github.io/React_Shopping_Cart/#/
+Live Demo :- https://assem1637.github.io/React_Shopping_Cart/
 
 # Getting Started with Create React App
 
