@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Cairo", sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --bg-color: #131722;
+  --border-color: #ffffff3d;
+}
+
+body {
+  background-color: #131722 !important;
+  color: aliceblue !important;
+}
+
+.navbar-brand {
+  letter-spacing: 5px !important;
+}
+
+.number-cart {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.card {
+  border-color: var(--border-color) !important;
+}
+
+tr,
+th,
+td {
+  vertical-align: middle !important;
+}
+
+.btns {
+  color: #fff !important;
+  font-weight: bold;
+  width: 25px !important;
+  height: 25px !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
 }
